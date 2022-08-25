@@ -5,6 +5,8 @@ You can also add proxies with a little change on the script.
 
 
 instructions:
+Since I have only used the byilt it modules, you don't have to install anything!
+
 1. Add the web site link on the url.json file.
 2. provide number of threads you wanna run ( defult is 100) and store url.json on the same directory as DOS.py
 3. Run the DOS.py file and done!
