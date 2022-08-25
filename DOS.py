@@ -1,7 +1,6 @@
 import requests
 import threading
 import json
-from time import sleep
 
 
 req_count = 0
@@ -35,6 +34,5 @@ for i in range(1,numberOfThreads):
     t1 = threading.Thread(target=attack,args=[url])
     threads.append(t1)
 for thread in threads:
-    #sleep(0.5) starts every thread in 5 seconds
     thread.start()
 print(f'all {numberOfThreads} threads are running')
